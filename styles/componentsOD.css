@@ -1,0 +1,156 @@
+
+html, body {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(30, 30, 30, 0.18), rgba(30, 30, 30, 0.18)), url('../imgs/intro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.helper {
+    background-color: #314969;
+    padding: 3px 20px 4px 20px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 8vh;
+}
+
+h1.logo {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.welcome-text {
+    height: 45%;
+}
+
+.welcome-text h2 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 20px;
+    letter-spacing: 0.5rem;
+}
+
+.welcome-text p {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+
+article {
+    padding: 1rem;
+}
+
+h2 {
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
+}
+
+h2.after-ochrana::after {
+    height: 2px;
+    background-color: #185db8;
+    content: " ";
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.section-ochrana p, .section-spravce p, .section-zpracovane p, .section-ucel p, .section-doba p, .section-prava p, .section-kontaktni-udaje p {
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.section-ochrana, .section-spravce, .section-zpracovane, .section-ucel, .section-doba, .section-prava, .section-kontaktni-udaje {
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+ul.seznam {
+    list-style-type: disc;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.div-spravce {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+a.email {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition-duration: 300ms;
+}
+
+a.email:hover {
+    color:  #185db8;
+    border-bottom: 1px solid #185db8;
+}
+
+a.mobil {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition-duration: 300ms;
+}
+
+a.mobil:hover {
+    color:  #185db8;
+    border-bottom: 1px solid #185db8;
+}
+
